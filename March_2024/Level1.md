@@ -1,7 +1,8 @@
 # Level 1: Load Balancers
 
 ## Getting Started with BigQuery ML
-```cmdcurl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Getting%20Started%20with%20BigQuery%20Machine%20Learning/quicklabgsp247.sh
+```cmd
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Getting%20Started%20with%20BigQuery%20Machine%20Learning/quicklabgsp247.sh
 sudo chmod +x quicklabgsp247.sh
 ./quicklabgsp247.sh
 ```
@@ -57,17 +58,13 @@ gcloud run deploy monolith --image $REGION-docker.pkg.dev/$DEVSHELL_PROJECT_ID/m
 
 ## Create an Internal Load Balancer
 
-```cmdexport REGION=
-
+```cmd
+export REGION=
 export ZONE_1=
-
 export ZONE_2=
 
-
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/July%20updated%20Create%20an%20Internal%20Load%20Balancer/quicklabgsp216.sh
-
 sudo chmod +x quicklabgsp216.sh
-
 ./quicklabgsp216.sh
 ```
 
@@ -78,9 +75,7 @@ Run in ssh
 
 ```cmd
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Cloud%20Natural%20Language%20API%20Qwik%20Start/quicklabgsp097.sh
-
 sudo chmod +x quicklabgsp097.sh
-
 ./quicklabgsp097.sh
 ```
 
@@ -96,11 +91,9 @@ gcloud source repos create REPO_DEMO
 
 ## Working with JSON, Arrays, and Structs in BigQuery
 
-```cmdcurl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Working%20with%20JSON%20Arrays%20and%20Structs%20in%20BigQuery/quicklabgsp416.sh
-
-
+```cmd
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Working%20with%20JSON%20Arrays%20and%20Structs%20in%20BigQuery/quicklabgsp416.sh
 sudo chmod +x quicklabgsp416.sh
-
 ./quicklabgsp416.sh
 ```
 
@@ -108,9 +101,8 @@ sudo chmod +x quicklabgsp416.sh
 
 ## Pub/Sub: Qwik Start - Python
 
-```cmdcurl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/PubSub%20Qwik%20Start%20Python/quicklabgsp094.sh
-
+```cmd
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/PubSub%20Qwik%20Start%20Python/quicklabgsp094.sh
 sudo chmod +x quicklabgsp094.sh
-
 ./quicklabgsp094.sh
 ```
