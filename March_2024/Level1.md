@@ -1,54 +1,38 @@
 # Level 1: Load Balancers
 
 ## Getting Started with BigQuery ML
-
 ```cmdcurl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Getting%20Started%20with%20BigQuery%20Machine%20Learning/quicklabgsp247.sh
-
 sudo chmod +x quicklabgsp247.sh
-
 ./quicklabgsp247.sh
 ```
 
 ## Google Kubernetes Engine: Qwik Start
-
-```cmdexport ZONE=us-central1-a
-
+```cmd
+export ZONE=us-central1-a
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Google%20Kubernetes%20Engine%20Qwik%20Start/quicklabgsp100.sh
-
 sudo chmod +x quicklabgsp100.sh
-
 ./quicklabgsp100.sh
-
 ```
 
 ## Set Up Network and HTTP Load Balancers
-
-```cmdexport ZONE=
-
+```cmd
+export ZONE=
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Set%20Up%20Network%20and%20HTTP%20Load%20Balancers/quicklabgsp007.sh
-
 sudo chmod +x quicklabgsp007.sh
-
 ./quicklabgsp007.sh
-
 ```
 
 ## Introduction to Docker
-
-```cmdexport REGION=
-
+```cmd
+export REGION=
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Introduction%20to%20Docker/quicklabgsp055.sh
-
 sudo chmod +x quicklabgsp055.sh
-
 ./quicklabgsp055.sh
 ```
 
-
 ## Deploy Your Website on Cloud Run
-
-```cmdexport REGION=
-
+```cmd
+export REGION=
 gcloud services enable artifactregistry.googleapis.com \
 cloudbuild.googleapis.com \
 run.googleapis.com
