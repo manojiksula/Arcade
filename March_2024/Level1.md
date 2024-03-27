@@ -8,8 +8,12 @@ sudo chmod +x quicklabgsp247.sh
 ```
 
 ## Google Kubernetes Engine: Qwik Start
+
 ```cmd
-export ZONE=us-central1-a
+export ZONE=
+```
+
+```cmd
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Google%20Kubernetes%20Engine%20Qwik%20Start/quicklabgsp100.sh
 sudo chmod +x quicklabgsp100.sh
 ./quicklabgsp100.sh
@@ -18,20 +22,32 @@ sudo chmod +x quicklabgsp100.sh
 ## Set Up Network and HTTP Load Balancers
 ```cmd
 export ZONE=
+```
+
+```cmd
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Set%20Up%20Network%20and%20HTTP%20Load%20Balancers/quicklabgsp007.sh
 sudo chmod +x quicklabgsp007.sh
 ./quicklabgsp007.sh
 ```
 
 ## Introduction to Docker
+
 ```cmd
 export REGION=
+```
+
+```cmd
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Introduction%20to%20Docker/quicklabgsp055.sh
 sudo chmod +x quicklabgsp055.sh
 ./quicklabgsp055.sh
 ```
 
 ## Deploy Your Website on Cloud Run
+
+```cmd
+export REGION=
+```
+
 ```cmd
 export REGION=
 gcloud services enable artifactregistry.googleapis.com \
@@ -62,7 +78,9 @@ gcloud run deploy monolith --image $REGION-docker.pkg.dev/$DEVSHELL_PROJECT_ID/m
 export REGION=
 export ZONE_1=
 export ZONE_2=
+```
 
+```cmd
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/July%20updated%20Create%20an%20Internal%20Load%20Balancer/quicklabgsp216.sh
 sudo chmod +x quicklabgsp216.sh
 ./quicklabgsp216.sh
