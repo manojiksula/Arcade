@@ -19,7 +19,34 @@ sudo chmod +x quicklabgsp663.sh
 https://www.youtube.com/watch?v=eG6ZmBtJJbc
 
 ```cmd
+export ZONE=# Level 2: Kubernetes
+
+## Deploy, Scale, and Update Your Website on Google Kubernetes Engine (14:15)
+
+https://www.youtube.com/watch?v=iVCJ9jyyR0s
+
+
+```cmd
 export ZONE=
+```
+```cmd
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Deploy%20Scale%20and%20Update%20Your%20Website%20on%20Google%20Kubernetes%20Engine/quicklabgsp663.sh
+sudo chmod +x quicklabgsp663.sh
+./quicklabgsp663.sh
+```
+
+## Compute Engine: Qwik Start - Windows (1:10)
+
+https://www.youtube.com/watch?v=eG6ZmBtJJbc
+
+```cmd
+export ZONE=
+```
+```cmd
+gcloud compute instances create instance-1 \
+ --zone=$ZONE \
+ --machine-type=e2-medium \
+
 ```
 ```cmd
 gcloud compute instances create instance-1 \
@@ -59,95 +86,6 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Managing%20T
 sudo chmod +x quicklabgsp752.sh
 
 ./quicklabgsp752.sh
-# Level 2: Kubernetes
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Managing%20Deployments%20Using%20Kubernetes%20Engine/quicklabgsp053.sh
-
-sudo chmod +x quicklabgsp053.sh
-
-./quicklabgsp053.sh
-```
-
-## Exploring NCAA Data with BigQuery
-```cmd
-
-```
-
-## Terraform Fundamentals (2:02)
-```cmd
-
-
-export ZONE=
-
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Terraform%20Fundamentals/quicklabgsp156.sh
-
-sudo chmod +x quicklabgsp156.sh
-
-./quicklabgsp156.sh
-
-```
-
-
-# Infrastructure as Code with Terraform (6:27)
-
-https://www.youtube.com/watch?v=uGnKLGmLMSw
-
-```cmd
-
-export ZONE=
-
-
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Infrastructure%20as%20Code%20with%20Terraform/quicklabgsp750.sh
-
-sudo chmod +x quicklabgsp750.sh
-
-./quicklabgsp750.sh
-
-```
-
-# Interact with Terraform Modules (3:04)
-
-https://www.youtube.com/watch?v=ZBhjweJ74j8
-
-
-```cmd
-export REGION=
-
-
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Interact%20with%20Terraform%20Modules/quicklabgsp751.sh
-
-
-sudo chmod +x quicklabgsp751.sh
-
-./quicklabgsp751.sh
-
-```
-
-# Video Intelligence: Qwik Start (1:28)
-
-https://www.youtube.com/watch?v=lGSCG71V1Iw
-
-```cmd
-
-
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Video%20Intelligence%20Qwik%20Start/quicklabgsp154.sh
-
-sudo chmod +x quicklabgsp154.sh
-
-./quicklabgsp154.sh
-
-
-```
-
-# Create a Cosmetic Anomaly Detection Model using Visual Inspection AI
-```cmd
-
-```
-
-# Configuring IAM Permissions with gcloud
-
-https://www.youtube.com/watch?v=cCpUvJzLFnE
-
-```cmd
 
 ```
 
@@ -165,7 +103,8 @@ sudo chmod +x quicklabgsp053.sh
 ./quicklabgsp053.sh
 ```
 
-## Exploring NCAA Data with BigQuery
+## Exploring NCAA Data with BigQuery (1:40)
+https://www.youtube.com/watch?v=mk8qZdsramI
 ```cmd
 
 ```
@@ -209,8 +148,9 @@ https://www.youtube.com/watch?v=ZBhjweJ74j8
 
 ```cmd
 export REGION=
+```
 
-
+```cmd
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Interact%20with%20Terraform%20Modules/quicklabgsp751.sh
 
 
@@ -225,7 +165,6 @@ sudo chmod +x quicklabgsp751.sh
 https://www.youtube.com/watch?v=lGSCG71V1Iw
 
 ```cmd
-
 
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Video%20Intelligence%20Qwik%20Start/quicklabgsp154.sh
 
