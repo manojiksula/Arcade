@@ -19,7 +19,7 @@ sudo chmod +x quicklabgsp663.sh
 https://www.youtube.com/watch?v=eG6ZmBtJJbc
 
 ```cmd
-export ZONE=us-central1-a
+export ZONE=
 ```
 ```cmd
 gcloud compute instances create instance-1 \
