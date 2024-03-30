@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=iVCJ9jyyR0s
 
 
 ```cmd
-export ZONE=us-central1-a
+export ZONE=
 ```
 ```cmd
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Deploy%20Scale%20and%20Update%20Your%20Website%20on%20Google%20Kubernetes%20Engine/quicklabgsp663.sh
@@ -34,7 +34,7 @@ https://www.youtube.com/watch?v=raUHtGYsD9A
 
 ```cmd
 
-export REGION=us-central1
+export REGION=
 
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Introduction%20to%20SQL%20for%20BigQuery%20and%20Cloud%20SQL/quicklabgsp281.sh
 
@@ -68,7 +68,7 @@ sudo chmod +x quicklabgsp752.sh
 https://www.youtube.com/watch?v=Wl6NQ6IP8kw
 
 ```cmd
-export ZONE=us-central1-b
+export ZONE=
 
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Managing%20Deployments%20Using%20Kubernetes%20Engine/quicklabgsp053.sh
 
